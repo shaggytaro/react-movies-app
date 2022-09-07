@@ -1,7 +1,7 @@
 This is a Movies App made using 
 React JS, React hooks like useState, useEffect and useContext , React Router and the imDb API
 
-Currently, this app has a functioning search bar and upon clicking on it, a separate card appears for a single movie which has details like plot, ratings, release date, art, and genres.
+Currently, this app has a functioning search bar which gives you list of movies and upon clicking on one movie, a separate card appears for a single movie which has details like plot, ratings, release date, art, and genres.
 
 I am working on the favorites feature of this movie at this point in time. I have tried using methods like mixing useState and useEffect and using array methods like indexOf and concat methods alongside the localStorage, but it is interfering with the Router methods I placed in for the card.
 
