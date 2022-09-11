@@ -46,19 +46,20 @@ const SingleMovie = () => {
 
     // a function that adds movies to favorites
   const addFavMovie = id => {
-      // const favList = [...favorite, movie];
-      // setFavorite(favList);
-      if(!favorite.includes(id)) setFavorite(favorite.concat(id));
-      console.log(id);
+      const favList = [...favorite, movie];
+      setFavorite(favList);
+      // if(!favorite.includes(id)) setFavorite(favorite.concat(id));
+      // console.log(id);
+      
   }
 
   // a function to remove the movie from favorite list
-  const removeFavMovie = id => {
-    let index = favorite.indexOf(id);
-    console.log(index);
-    let temp = [...favorite.slice(0, index), ...favorite.slice(index + 1)];
-    setFavorite(temp);
-  }
+  // const removeFavMovie = id => {
+  //   let index = favorite.indexOf(id);
+  //   console.log(index);
+  //   let temp = [...favorite.slice(0, index), ...favorite.slice(index + 1)];
+  //   setFavorite(temp);
+  // }
 
   //this variable is being used to hold all the favorite movies, being used to render all the favorite movies.
   // let findMovie = movie.filter(currMovie => favorite.includes(currMovie.id));

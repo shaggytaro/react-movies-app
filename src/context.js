@@ -3,7 +3,7 @@
 // Provider (delivery boy/girl)
 // Consumer / (useContext() or YOU)
 
-import React, {useContext, useEffect, useState} from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 
 const AppContext = React.createContext();
 

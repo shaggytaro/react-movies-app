@@ -3,7 +3,7 @@ import { useGlobalContext } from './context';
 
 const Search = () => {
 
-  const {query, setQuery, isError} = useGlobalContext();
+  const { query, setQuery, isError } = useGlobalContext();
 
   return (
     <>
