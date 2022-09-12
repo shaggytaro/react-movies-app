@@ -6,6 +6,9 @@ I am working on the favorites feature of this movie at this point in time. I hav
 
 Hence, I am working on a method that would not only enable this feature but also maintain its current features.
 
-Images to the UI are in the App UI folder and sent on email as well. 
+Images to the UI are the following. 
 
-
+![UI Image 1](./App%20UI/movies%20app%20UI%20%231.jpg)
+![UI Image 2](./App%20UI/movies%20app%20UI%20%232.jpg)
+![UI Image 3](./App%20UI/movies%20app%20UI%20%233.jpg)
+![UI Image 4](./App%20UI/movies%20app%20UI%20%234.jpg)
