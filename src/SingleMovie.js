@@ -50,7 +50,7 @@ const SingleMovie = () => {
       setFavorite(favList);
       // if(!favorite.includes(id)) setFavorite(favorite.concat(id));
       // console.log(id);
-      
+
   }
 
   // a function to remove the movie from favorite list
@@ -72,7 +72,7 @@ const SingleMovie = () => {
           </figure>
 
           <div className="card-content">
-            <p className="title">{movie.title}</p>
+            <p className="title">{movie.title ? movie.title : "Untitled"}</p>
             <p className="card-text">{movie.releaseDate ? movie.releaseDate : `-`}</p>
             <p className="card-text">{movie.genres ? movie.genres : `-`}</p>
             <p className="card-text">{movie.imDbRating ? movie.imDbRating : `Not yet rated`} / 10</p>
