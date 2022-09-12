@@ -6,3 +6,6 @@ I am working on the favorites feature of this movie at this point in time. I hav
 
 Hence, I am working on a method that would not only enable this feature but also maintain its current features.
 
+Images to the UI are in the App UI folder and sent on email as well. 
+
+
